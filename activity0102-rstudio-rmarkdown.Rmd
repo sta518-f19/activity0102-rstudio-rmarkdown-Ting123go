@@ -14,14 +14,11 @@ library(datasauRus)
 
 
 ### Exercise 1
+#There are total 3 columns and 142 obs in the dino dataset
 
-(Type your answer to Exercise 1 here. This exercise does not require any R code.)
 
 ### Exercise 2
-
-(The answers for this Exercise are given for you below. But you should clean up some of the narrative so that it only includes what you want to turn in.)
-
-First let's plot the data in the dino dataset:
+#The shape looks like dinosuar, and the correlation rate is 0.06447
 
 ```{r plot-dino, fig.height=3, fig.width=6}
 dino_data <- datasaurus_dozen %>%
@@ -40,9 +37,7 @@ dino_data %>%
 
 ### Exercise 3
 
-(Add code and narrative as needed. Note that the R chunks are labeled with `plot-star` and `cor-star` to provide spaces to place the code for plotting and calculating the correlation coefficient. To finish, clean up the narrative by removing these instructions.)
 
-Blah blah blah...
 
 ```{r plot-star}
 
