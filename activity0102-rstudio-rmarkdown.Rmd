@@ -37,11 +37,16 @@ dino_data %>%
 
 ### Exercise 3
 
-
-
-```{r plot-star}
-
+# the shape looks like a star, and the correlation rate is about 0.06296 which is lower than the exercise 2
+```{r}
+star_data <- datasaurus_dozen %>% 
+  filter(dataset == "star")
+ggplot(data = star_data, mapping = aes(x = x, y = y)) +
+  geom_point()
 ```
+```{r}
+star_data %>%
+summarize(r = cor(x, y))
 
 I'm some text, you should replace me with more meaningful text...
 
